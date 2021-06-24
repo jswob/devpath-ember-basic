@@ -1,0 +1,15 @@
+<div class="array-list">
+  {{#each this.names as |name|}}
+    <div class="array-list__item">{{name}}</div>
+  {{else}}
+    <h1>Ups. No data to show :(</h1>
+  {{/each}}
+</div>
+
+<button 
+  type="button" 
+  class="main-content__action-button"
+  {{on 'click' this.popLastItem}}
+>
+  Pop last item
+</button>
