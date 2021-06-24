@@ -48,3 +48,8 @@ a {
   align-items: center;
   color: rgb(255, 205, 205);
 }
+
+.date-helper {
+  font-size: 5rem;
+  font-weight: 600;
+}
