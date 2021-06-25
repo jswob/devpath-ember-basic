@@ -13,4 +13,11 @@ export default class XRoutableArrayComponent extends Component {
 
     this.names = this.names;
   }
+
+  @action
+  addNewItem() {
+    this.names.push('###########');
+
+    this.names = this.names;
+  }
 }

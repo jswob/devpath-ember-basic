@@ -9,6 +9,14 @@
 <button 
   type="button" 
   class="main-content__action-button"
+  {{on 'click' this.addNewItem}}
+>
+  Push new item
+</button>
+
+<button 
+  type="button" 
+  class="main-content__action-button"
   {{on 'click' this.popLastItem}}
 >
   Pop last item
